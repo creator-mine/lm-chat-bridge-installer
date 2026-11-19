@@ -16,14 +16,14 @@
 ## Быстрая установка
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Spe4naz/lm-chat-bridge-installer/main/install.sh -o /tmp/lm-bridge-install.sh
+curl -fsSL https://raw.githubusercontent.com/creator-mine/lm-chat-bridge-installer/main/install.sh -o /tmp/lm-bridge-install.sh
 sudo bash /tmp/lm-bridge-install.sh --user "$USER"
 ```
 
 Или из клонированного репозитория:
 
 ```bash
-git clone https://github.com/Spe4naz/lm-chat-bridge-installer.git
+git clone https://github.com/creator-mine/lm-chat-bridge-installer.git
 cd lm-chat-bridge-installer
 sudo bash install.sh --user "$USER"
 ```

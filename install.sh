@@ -90,7 +90,7 @@ cleanup() {
 trap cleanup EXIT
 
 if [[ ! -f "$BRIDGE_SOURCE" ]]; then
-  BRIDGE_URL="https://raw.githubusercontent.com/Spe4naz/lm-chat-bridge-installer/main/lms_gpu_bridge.py"
+  BRIDGE_URL="https://raw.githubusercontent.com/creator-mine/lm-chat-bridge-installer/main/lms_gpu_bridge.py"
   TEMP_BRIDGE="$(mktemp)"
   log "lms_gpu_bridge.py не найден рядом со скриптом, скачиваю из репозитория"
   if command -v curl >/dev/null 2>&1; then
